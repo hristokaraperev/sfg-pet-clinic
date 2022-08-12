@@ -29,6 +29,7 @@ public class OwnerSDJpaService implements OwnerService {
         this.petTypeRepository = petTypeRepository;
     }
 
+    // == public methods ==
     @Override
     public Set<Owner> findAll() {
         Set<Owner> owners = new HashSet<>();
